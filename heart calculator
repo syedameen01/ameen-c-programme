@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float ccl=33.9,fa=109.5;
+clrscr();
+fa=(ccl*1.8)+32;
+ccl=(fa-32)*5/9;
+printf("%f\n%f",ccl,fa);
+getch();
+}
