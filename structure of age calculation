@@ -1,0 +1,20 @@
+#include<stdio.h>
+struct present{
+    int d;
+    int m;
+    int y;
+};
+struct old {
+    int D;
+    int M;
+    int Y;
+};
+int main()
+{
+    int year;
+    struct present var1={20,4,2024};
+    struct old var2={20,4,2008};
+    year=var1.y-var2.Y;
+    printf("age =%d",year);
+    return 0;
+}
