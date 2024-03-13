@@ -1,0 +1,12 @@
+#include<stdio.h>
+struct str1{
+    char brand[50];
+    char mani[50];
+    char clockrate[50];
+    int cores;
+};
+int main()
+{
+    struct str1 var={"dell","rasool bhai","144hz",7};
+    printf("struct 1\n brand=%s\nmanufracturer name =%s\nclockrate=%s\ncores=i%d",var.brand,var.mani,var.clockrate,var.cores);
+}
