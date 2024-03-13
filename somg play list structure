@@ -1,0 +1,21 @@
+#include <stdio.h>
+struct str1{
+    int i;
+    char feilds[60];
+    char artist[30];
+    char album[40];
+};
+
+struct str2{
+    int ii;
+    char feilds[40];
+    char artist[40];
+    char album[40];
+}var;
+int main(){
+    struct str1 var1={25,"love songs","arjitsingh","my fav"};
+    struct str2 var2={65,"gym motivation","sidsriram","all time play"};
+    printf("struct 1\n\tfeilds=%s\nlength=%d\nname of artist=%s\nname of album=%s\n",var1.feilds,var1.i,var1.artist,var1.album);
+    printf("struct 2 \n\t length=%d\nfeild=%s\nartist=%s\nalbum=%s\n",var2.ii,var2.feilds,var2.artist,var2.album);
+    return 0;
+}
