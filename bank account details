@@ -1,0 +1,13 @@
+#include<stdio.h>
+struct bank{
+    char name[50];
+    char address[75];
+    int balance;
+    char phone[30];
+};
+int main()
+{
+    struct bank var={"nagaraju","kakinada near govind temple",98585263,"9778766367"};
+    printf("struct for bank details\n name of accountant=%s\n phone number=%s\naddress=%s\naccount balance=%d\n",var.name,var.phone,var.address,var.balance);
+    return 0;
+}
